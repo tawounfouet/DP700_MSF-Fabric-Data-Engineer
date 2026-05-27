@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Timeline journee EFREI DP-700</title>
+  <desc id="desc">Deroule visuel de la journee Microsoft Fabric.</desc>
+  <rect width="1200" height="360" fill="#f8fafc"/>
+  <text x="60" y="58" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#172033">Journee EFREI DP-700 : de la carte mentale au projet end-to-end</text>
+  <line x1="110" y1="185" x2="1090" y2="185" stroke="#9aa8b8" stroke-width="5" stroke-linecap="round"/>
+
+  <g font-family="Arial, sans-serif">
+    <circle cx="140" cy="185" r="18" fill="#5a9ee6"/>
+    <text x="140" y="128" text-anchor="middle" font-size="16" font-weight="700" fill="#172033">09:00</text>
+    <text x="140" y="232" text-anchor="middle" font-size="14" fill="#526074">Cadrage</text>
+
+    <circle cx="310" cy="185" r="18" fill="#4ea66b"/>
+    <text x="310" y="128" text-anchor="middle" font-size="16" font-weight="700" fill="#172033">09:20</text>
+    <text x="310" y="232" text-anchor="middle" font-size="14" fill="#526074">Vue Fabric</text>
+
+    <circle cx="480" cy="185" r="18" fill="#d4912a"/>
+    <text x="480" y="128" text-anchor="middle" font-size="16" font-weight="700" fill="#172033">10:25</text>
+    <text x="480" y="232" text-anchor="middle" font-size="14" fill="#526074">TP Lakehouse</text>
+
+    <circle cx="650" cy="185" r="18" fill="#995bc5"/>
+    <text x="650" y="128" text-anchor="middle" font-size="16" font-weight="700" fill="#172033">13:30</text>
+    <text x="650" y="232" text-anchor="middle" font-size="14" fill="#526074">Architecture Books</text>
+
+    <circle cx="820" cy="185" r="18" fill="#c4a000"/>
+    <text x="820" y="128" text-anchor="middle" font-size="16" font-weight="700" fill="#172033">14:00</text>
+    <text x="820" y="232" text-anchor="middle" font-size="14" fill="#526074">Bronze Silver</text>
+
+    <circle cx="990" cy="185" r="18" fill="#d76363"/>
+    <text x="990" y="128" text-anchor="middle" font-size="16" font-weight="700" fill="#172033">15:30</text>
+    <text x="990" y="232" text-anchor="middle" font-size="14" fill="#526074">Gold BI Qualite</text>
+  </g>
+
+  <rect x="82" y="280" width="1036" height="44" rx="10" fill="#ffffff" stroke="#c7d0dc"/>
+  <text x="600" y="308" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#526074">Matin : comprendre et manipuler. Apres-midi : construire une mini data platform Fabric.</text>
+</svg>
+

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Architecture medaillon Books to Scrape</title>
+  <desc id="desc">Pipeline Fabric depuis Books to Scrape vers bronze, silver, gold, SQL endpoint et Power BI.</desc>
+  <rect width="1200" height="720" fill="#f8fafc"/>
+  <text x="60" y="58" font-family="Arial, sans-serif" font-size="31" font-weight="700" fill="#172033">Use case Books to Scrape : pipeline medaillon dans Fabric</text>
+  <text x="60" y="90" font-family="Arial, sans-serif" font-size="17" fill="#526074">Une vraie chaine data engineering : ingestion, raw zone, nettoyage, modele metier, qualite et exposition</text>
+
+  <rect x="50" y="160" width="190" height="120" rx="14" fill="#ffffff" stroke="#c7d0dc" stroke-width="2"/>
+  <text x="145" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#172033">Source web</text>
+  <text x="145" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#526074">books.toscrape.com</text>
+  <text x="145" y="249" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#526074">50 pages, 1000 livres</text>
+
+  <path d="M250 220 H325" stroke="#607086" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="335" y="130" width="225" height="180" rx="16" fill="#fff7e6" stroke="#c6811f" stroke-width="2"/>
+  <text x="447" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#5a3600">Bronze</text>
+  <text x="447" y="197" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#5a3600">Données brutes</text>
+  <rect x="365" y="220" width="165" height="32" rx="7" fill="#ffffff" stroke="#e0ad5f"/>
+  <text x="447" y="241" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#5a3600">raw_html/*.html</text>
+  <rect x="365" y="262" width="165" height="32" rx="7" fill="#ffffff" stroke="#e0ad5f"/>
+  <text x="447" y="283" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#5a3600">raw_json/books.jsonl</text>
+
+  <path d="M570 220 H645" stroke="#607086" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="655" y="130" width="225" height="180" rx="16" fill="#eef3f8" stroke="#6c7f95" stroke-width="2"/>
+  <text x="767" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#24364a">Silver</text>
+  <text x="767" y="197" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#24364a">Nettoye, type, dedoublonne</text>
+  <rect x="685" y="220" width="165" height="32" rx="7" fill="#ffffff" stroke="#9baabe"/>
+  <text x="767" y="241" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#24364a">silver_books</text>
+  <rect x="685" y="262" width="165" height="32" rx="7" fill="#ffffff" stroke="#9baabe"/>
+  <text x="767" y="283" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#24364a">silver_categories</text>
+
+  <path d="M890 220 H965" stroke="#607086" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="975" y="130" width="185" height="180" rx="16" fill="#fff5d6" stroke="#c4a000" stroke-width="2"/>
+  <text x="1067" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#5a4700">Gold</text>
+  <text x="1067" y="197" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#5a4700">Métier et BI</text>
+  <rect x="1000" y="220" width="135" height="32" rx="7" fill="#ffffff" stroke="#d5b83d"/>
+  <text x="1067" y="241" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#5a4700">catalog</text>
+  <rect x="1000" y="262" width="135" height="32" rx="7" fill="#ffffff" stroke="#d5b83d"/>
+  <text x="1067" y="283" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#5a4700">category stats</text>
+
+  <rect x="175" y="390" width="245" height="110" rx="14" fill="#ffffff" stroke="#c7d0dc" stroke-width="2"/>
+  <text x="297" y="427" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#172033">Notebook bronze</text>
+  <text x="297" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#526074">HTTP, parsing HTML</text>
+  <text x="297" y="478" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#526074">audit_ingestion_runs</text>
+
+  <rect x="480" y="390" width="245" height="110" rx="14" fill="#ffffff" stroke="#c7d0dc" stroke-width="2"/>
+  <text x="602" y="427" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#172033">Notebook silver</text>
+  <text x="602" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#526074">prix, notes, stock</text>
+  <text x="602" y="478" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#526074">rejets et deduplication</text>
+
+  <rect x="785" y="390" width="245" height="110" rx="14" fill="#ffffff" stroke="#c7d0dc" stroke-width="2"/>
+  <text x="907" y="427" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#172033">Notebook gold</text>
+  <text x="907" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#526074">agregats et schema etoile</text>
+  <text x="907" y="478" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#526074">tables Power BI</text>
+
+  <path d="M1040 310 V350 H910 V380" stroke="#607086" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M910 505 V560 H760" stroke="#607086" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="450" y="540" width="300" height="88" rx="14" fill="#e8f3ff" stroke="#5a9ee6" stroke-width="2"/>
+  <text x="600" y="573" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#17324d">SQL endpoint + Power BI</text>
+  <text x="600" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#17324d">requetes, modele semantique, rapport</text>
+
+  <rect x="825" y="540" width="230" height="88" rx="14" fill="#eaf7ef" stroke="#4ea66b" stroke-width="2"/>
+  <text x="940" y="573" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#173d26">Qualite</text>
+  <text x="940" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#173d26">dq_results, controles</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#607086"/>
+    </marker>
+  </defs>
+</svg>
+

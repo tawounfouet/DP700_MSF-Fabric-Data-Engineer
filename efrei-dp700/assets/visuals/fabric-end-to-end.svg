@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+  <title id="title">Vue end-to-end Microsoft Fabric</title>
+  <desc id="desc">Schema montrant les sources, Data Factory, OneLake, les moteurs Fabric, la gouvernance et Power BI.</desc>
+  <rect width="1200" height="640" fill="#f7f8fb"/>
+  <text x="60" y="58" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#172033">Microsoft Fabric : plateforme analytics end-to-end</text>
+  <text x="60" y="92" font-family="Arial, sans-serif" font-size="17" fill="#526074">Ingerer, stocker, transformer, gouverner et exposer les donnees dans une experience SaaS unifiee</text>
+
+  <rect x="52" y="140" width="210" height="300" rx="14" fill="#ffffff" stroke="#c7d0dc" stroke-width="2"/>
+  <text x="82" y="178" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#172033">Sources</text>
+  <rect x="82" y="210" width="150" height="38" rx="8" fill="#e8f3ff" stroke="#5a9ee6"/>
+  <text x="109" y="235" font-family="Arial, sans-serif" font-size="15" fill="#17324d">Fichiers</text>
+  <rect x="82" y="262" width="150" height="38" rx="8" fill="#eaf7ef" stroke="#4ea66b"/>
+  <text x="105" y="287" font-family="Arial, sans-serif" font-size="15" fill="#173d26">Bases SQL</text>
+  <rect x="82" y="314" width="150" height="38" rx="8" fill="#fff3dd" stroke="#d4912a"/>
+  <text x="102" y="339" font-family="Arial, sans-serif" font-size="15" fill="#53370f">APIs et Web</text>
+  <rect x="82" y="366" width="150" height="38" rx="8" fill="#f5eafb" stroke="#995bc5"/>
+  <text x="103" y="391" font-family="Arial, sans-serif" font-size="15" fill="#3f2356">Streaming</text>
+
+  <path d="M270 290 H360" stroke="#65758b" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="370" y="140" width="210" height="300" rx="14" fill="#ffffff" stroke="#c7d0dc" stroke-width="2"/>
+  <text x="410" y="178" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#172033">Data Factory</text>
+  <rect x="405" y="220" width="140" height="46" rx="8" fill="#e8f3ff" stroke="#5a9ee6"/>
+  <text x="439" y="249" font-family="Arial, sans-serif" font-size="15" fill="#17324d">Pipelines</text>
+  <rect x="405" y="290" width="140" height="46" rx="8" fill="#eaf7ef" stroke="#4ea66b"/>
+  <text x="428" y="319" font-family="Arial, sans-serif" font-size="15" fill="#173d26">Dataflow Gen2</text>
+  <rect x="405" y="360" width="140" height="46" rx="8" fill="#fff3dd" stroke="#d4912a"/>
+  <text x="434" y="389" font-family="Arial, sans-serif" font-size="15" fill="#53370f">Copy job</text>
+
+  <path d="M590 290 H680" stroke="#65758b" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="690" y="118" width="420" height="346" rx="18" fill="#ffffff" stroke="#c7d0dc" stroke-width="2"/>
+  <text x="840" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#172033">OneLake</text>
+  <text x="840" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#526074">Stockage logique unifie du tenant</text>
+
+  <rect x="725" y="220" width="155" height="64" rx="10" fill="#e8f3ff" stroke="#5a9ee6"/>
+  <text x="802" y="247" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#17324d">Lakehouse</text>
+  <text x="802" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#17324d">Files + Tables</text>
+
+  <rect x="920" y="220" width="155" height="64" rx="10" fill="#fff3dd" stroke="#d4912a"/>
+  <text x="997" y="247" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#53370f">Warehouse</text>
+  <text x="997" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#53370f">T-SQL</text>
+
+  <rect x="725" y="330" width="155" height="64" rx="10" fill="#eaf7ef" stroke="#4ea66b"/>
+  <text x="802" y="357" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#173d26">Notebooks</text>
+  <text x="802" y="378" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#173d26">Spark</text>
+
+  <rect x="920" y="330" width="155" height="64" rx="10" fill="#f5eafb" stroke="#995bc5"/>
+  <text x="997" y="357" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#3f2356">Eventhouse</text>
+  <text x="997" y="378" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#3f2356">KQL</text>
+
+  <path d="M900 470 V525 H650" stroke="#65758b" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="438" y="500" width="210" height="72" rx="14" fill="#ffffff" stroke="#c7d0dc" stroke-width="2"/>
+  <text x="543" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#172033">Power BI</text>
+  <text x="543" y="553" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#526074">Semantic model + reports</text>
+
+  <rect x="760" y="500" width="250" height="72" rx="14" fill="#ffffff" stroke="#c7d0dc" stroke-width="2"/>
+  <text x="885" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#172033">Gouvernance</text>
+  <text x="885" y="553" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#526074">Purview, securite, lineage</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#65758b"/>
+    </marker>
+  </defs>
+</svg>
+

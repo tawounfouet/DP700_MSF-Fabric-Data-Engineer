@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img" aria-labelledby="title desc">
+  <title id="title">Workspace Fabric cible</title>
+  <desc id="desc">Objets Fabric recommandes dans le workspace Books to Scrape.</desc>
+  <rect width="1100" height="620" fill="#f8fafc"/>
+  <rect x="70" y="70" width="960" height="480" rx="22" fill="#ffffff" stroke="#c7d0dc" stroke-width="2"/>
+  <text x="550" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#172033">Workspace Fabric</text>
+  <text x="550" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#526074">ws-efrei-dp700-books-dev-groupeXX</text>
+
+  <rect x="120" y="200" width="180" height="95" rx="12" fill="#e8f3ff" stroke="#5a9ee6" stroke-width="2"/>
+  <text x="210" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#17324d">Lakehouse</text>
+  <text x="210" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#17324d">lh_books_toscrape</text>
+
+  <rect x="355" y="200" width="180" height="95" rx="12" fill="#eaf7ef" stroke="#4ea66b" stroke-width="2"/>
+  <text x="445" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#173d26">Notebooks</text>
+  <text x="445" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#173d26">bronze, silver, gold</text>
+
+  <rect x="590" y="200" width="180" height="95" rx="12" fill="#fff3dd" stroke="#d4912a" stroke-width="2"/>
+  <text x="680" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#53370f">Pipeline</text>
+  <text x="680" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#53370f">end-to-end</text>
+
+  <rect x="825" y="200" width="155" height="95" rx="12" fill="#f5eafb" stroke="#995bc5" stroke-width="2"/>
+  <text x="902" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#3f2356">SQL endpoint</text>
+  <text x="902" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#3f2356">T-SQL</text>
+
+  <rect x="245" y="370" width="215" height="95" rx="12" fill="#fff5d6" stroke="#c4a000" stroke-width="2"/>
+  <text x="352" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#5a4700">Semantic model</text>
+  <text x="352" y="432" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#5a4700">sm_books_analytics</text>
+
+  <rect x="640" y="370" width="215" height="95" rx="12" fill="#ffecec" stroke="#d76363" stroke-width="2"/>
+  <text x="747" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#642828">Power BI report</text>
+  <text x="747" y="432" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#642828">rpt_books_catalog</text>
+
+  <path d="M300 247 H345" stroke="#607086" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M535 247 H580" stroke="#607086" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M770 247 H815" stroke="#607086" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M902 300 V335 H747 V360" stroke="#607086" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M460 417 H630" stroke="#607086" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#607086"/>
+    </marker>
+  </defs>
+</svg>
+

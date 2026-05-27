@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="620" viewBox="0 0 1080 620" role="img" aria-labelledby="title desc">
+  <title id="title">Schema etoile Books</title>
+  <desc id="desc">Modele etoile avec fact_books_gold et les dimensions category et rating.</desc>
+  <rect width="1080" height="620" fill="#f8fafc"/>
+  <text x="60" y="58" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#172033">Gold layer : schema etoile Books</text>
+
+  <rect x="405" y="190" width="270" height="250" rx="16" fill="#fff5d6" stroke="#c4a000" stroke-width="2"/>
+  <text x="540" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#5a4700">fact_books_gold</text>
+  <text x="430" y="270" font-family="Arial, sans-serif" font-size="15" fill="#5a4700">book_id</text>
+  <text x="430" y="300" font-family="Arial, sans-serif" font-size="15" fill="#5a4700">category_id</text>
+  <text x="430" y="330" font-family="Arial, sans-serif" font-size="15" fill="#5a4700">rating_value</text>
+  <text x="430" y="360" font-family="Arial, sans-serif" font-size="15" fill="#5a4700">price_gbp</text>
+  <text x="430" y="390" font-family="Arial, sans-serif" font-size="15" fill="#5a4700">is_available</text>
+  <text x="430" y="420" font-family="Arial, sans-serif" font-size="15" fill="#5a4700">available_count</text>
+
+  <rect x="70" y="210" width="245" height="175" rx="16" fill="#e8f3ff" stroke="#5a9ee6" stroke-width="2"/>
+  <text x="192" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#17324d">dim_category_gold</text>
+  <text x="100" y="295" font-family="Arial, sans-serif" font-size="15" fill="#17324d">category_id</text>
+  <text x="100" y="325" font-family="Arial, sans-serif" font-size="15" fill="#17324d">category</text>
+  <text x="100" y="355" font-family="Arial, sans-serif" font-size="15" fill="#17324d">category_norm</text>
+
+  <rect x="765" y="210" width="245" height="175" rx="16" fill="#eaf7ef" stroke="#4ea66b" stroke-width="2"/>
+  <text x="887" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#173d26">dim_rating_gold</text>
+  <text x="795" y="295" font-family="Arial, sans-serif" font-size="15" fill="#173d26">rating_value</text>
+  <text x="795" y="325" font-family="Arial, sans-serif" font-size="15" fill="#173d26">rating_label</text>
+  <text x="795" y="355" font-family="Arial, sans-serif" font-size="15" fill="#173d26">rating_band</text>
+
+  <path d="M315 300 H395" stroke="#607086" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M765 300 H685" stroke="#607086" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="350" y="505" width="380" height="60" rx="12" fill="#ffffff" stroke="#c7d0dc" stroke-width="2"/>
+  <text x="540" y="542" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#526074">Le rapport Power BI filtre les faits depuis les dimensions</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#607086"/>
+    </marker>
+  </defs>
+</svg>
+
