@@ -189,4 +189,6 @@ Microsoft Fabric IQ permet de définir le vocabulaire métier dans une ontologie
 
 ## Liens utiles
 
-- Module Microsoft Learn : [https://learn.microsoft.com/fr-fr/training/paths/get-started-microsoft-fabric/](https://learn.microsoft.com/fr-fr/training/paths/get-started-microsoft-fabric/)
+- Module Microsoft Learn : [https://learn.microsoft.com/fr-fr/training/paths/get-started-fabric/](https://learn.microsoft.com/fr-fr/training/paths/get-started-fabric/)
+- Documentation Microsoft Fabric : [https://learn.microsoft.com/fr-fr/fabric/](https://learn.microsoft.com/fr-fr/fabric/)
+- Forum Microsoft Fabric : [https://techcommunity.microsoft.com/t5/fabric/ct-p/Fabric](https://techcommunity.microsoft.com/t5/fabric/ct-p/Fabric)
