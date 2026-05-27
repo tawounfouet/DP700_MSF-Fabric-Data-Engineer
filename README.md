@@ -21,6 +21,7 @@ Dépôt d'étude complet pour la certification **Microsoft Certified: Fabric Dat
 ## Structure du dépôt
 
 ```
+├── AGENTS.md                       ← Configuration de l'agent AI (conventions du dépôt)
 ├── _data/                          ← Métadonnées (catégories, mapping cours/labs)
 │   └── lab-metadata.yml
 ├── resources/                      ← Ressources d'étude
@@ -30,13 +31,14 @@ Dépôt d'étude complet pour la certification **Microsoft Certified: Fabric Dat
 │   ├── ...
 │   └── Images/                     ← 344 captures d'écran des labs
 └── mslearn-training/               ← Modules Microsoft Learn (français)
-    ├── 0. Commencez avec Fabric
-    ├── I. Ingérer des données
-    ├── II. Implémenter un Lakehouse
-    ├── III. Implémenter Real-Time Intelligence
-    ├── IV. Implémenter un entrepôt de données
-    ├── V. Gérer un environnement Fabric
-    └── VI. Utiliser Activator
+    ├── Readme.md                   ← Présentation de la certification
+    ├── 0. Commencez avec Fabric    ← 9 modules
+    ├── I. Ingérer des données      ← 4 modules
+    ├── II. Implémenter un Lakehouse ← 7 modules
+    ├── III. Real-Time Intelligence  ← 5 modules
+    ├── IV. Data Warehouse           ← 7 modules
+    ├── V. Gérer un environnement    ← 5 modules
+    └── VI. Utiliser Activator       ← 1 module
 ```
 
 ---
@@ -53,16 +55,16 @@ Dépôt d'étude complet pour la certification **Microsoft Certified: Fabric Dat
 
 ## Parcours d'apprentissage
 
-| Section | Durée | Niveau | Description |
-|---------|-------|--------|-------------|
-| 0. Commencez avec Microsoft Fabric | 6h12 | Débutant | Fondamentaux : lakehouse, entrepôt, RTI, data science, SQL DB, modèles sémantiques, Fabric IQ |
+| Section | Durée | Niveaux | Description |
+|---------|-------|---------|-------------|
+| 0. Commencez avec Microsoft Fabric | 6h12 | Débutant | Fondamentaux : OneLake, lakehouse, entrepôt, RTI, data science, SQL DB, modèles sémantiques, Fabric IQ |
 | I. Ingérer des données | 3h48 | Intermédiaire | Dataflows Gen2, pipelines, Spark, Eventhouse/KQL |
 | II. Implémenter un Lakehouse | 5h01 | Intermédiaire | Lakehouse, Delta Lake, architecture médaillon, orchestration |
 | III. Real-Time Intelligence | 5h31 | Débutant | Eventstream, Eventhouse, dashboards temps réel, Activator |
 | IV. Implémenter un entrepôt de données | 6h24 | Débutant | Chargement, requêtes, Copilot, surveillance, sécurité |
 | V. Gérer un environnement Fabric | 3h34 | Intermédiaire | CI/CD, monitoring, sécurité multi-couche, administration |
 | VI. Utiliser Activator | 1h01 | Débutant | Objets, règles, actions (email/Teams) |
-| **Total** | **~31h** | | 47 labs + ~45 modules théoriques |
+| **Total** | **~31h** | | **47 labs** + **38 modules théoriques** |
 
 ---
 

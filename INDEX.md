@@ -4,6 +4,12 @@ Index exhaustif de tous les fichiers du dépôt d'étude.
 
 ---
 
+## `AGENTS.md` — Configuration de l'agent AI
+
+Fichier de conventions pour l'agent opencode : décrit la structure du dépôt, les conventions d'édition (Markdown uniquement, pas de code), le layout des répertoires, et les notes spécifiques (lacunes, redondances, dépendances externes).
+
+---
+
 ## `_data/` — Métadonnées
 
 ### `lab-metadata.yml`
@@ -120,9 +126,10 @@ Guide d'étude officiel en français pour l'examen DP-700. Détaille le profil d
 Contenu théorique en français extrait de Microsoft Learn, organisé par parcours d'apprentissage. Chaque section contient un `Readme.md` listant les modules, durées, XP, et objectifs.
 
 ### `0. Commencez avec Microsoft Fabric` (6h12 — Débutant)
-8 modules — 6900 XP total. Fondamentaux de la plateforme Fabric.
+9 modules — 6900 XP total. Fondamentaux de la plateforme Fabric.
 - `Readme.md` — Présentation du parcours
-- `1. Présentation de l'analytique...Fabric.md` — *(fichier vide)*
+- `00. Découvrir et se connecter aux données dans OneLake.md` — OneLake, navigation, catalog, gouvernance
+- `1. Présentation de l'analytique...Fabric.md` — Vue d'ensemble, workspaces, Copilot, Fabric IQ
 - `2. Commencez avec les lakehouses...md` — Lakehouses, OneLake, SQL endpoint
 - `3. Commencez avec les entrepôts de données...md` — Data warehouse, T-SQL, modélisation
 - `4. Commencez avec l'Intelligence en temps réel...md` — RTI, Eventstream, Eventhouse, KQL
@@ -130,7 +137,7 @@ Contenu théorique en français extrait de Microsoft Learn, organisé par parcou
 - `6. Prise en main de SQL Database...md` — SQL Database, mirroring, Copilot
 - `7. Concevoir des modèles sémantiques...md` — Direct Lake, star schema, calculation groups
 - `8. Comprendre les principes fondamentaux de Fabric IQ.md` — Ontologies, data agents, Graph
-- `labs/` — Labs redondants (01-lakehouse, 02-analyze-spark, 03-delta-lake)
+- `labs/` — Labs redondants (01-lakehouse, 02-analyze-spark, 03-delta-lake) + 25-discover-onelake avec data/ et images/
 
 ### `I. Ingérer des données avec Microsoft Fabric` (3h48 — Intermédiaire)
 4 modules — 3500 XP total.
@@ -175,17 +182,18 @@ Contenu théorique en français extrait de Microsoft Learn, organisé par parcou
 - `labs/` — 6 labs redondants (06-data-warehouse, 06a, 06b, 06c, 06d, 22c-copilot)
 
 ### `V. Gérer un environnement Microsoft Fabric` (3h34 — Intermédiaire)
-4 modules — 3300 XP total.
+5 modules — 3300 XP total.
 - `Readme.md` — CI/CD, monitoring, sécurité, administration
 - `01. Implémenter...CI/CD...md` — Git integration, deployment pipelines, API Fabric
 - `02. Surveiller les activités...md` — Monitor Hub, Activator
-- `03. Sécuriser l'accès aux données...md` — *(fichier vide)*
-- `04. Sécuriser l'accès aux données...md` — Modèle sécurité multi-couche
+- `03. Sécuriser l'accès aux données...md` — Modèle sécurité multi-couche : workspace, item, granular
+- `04. Sécuriser l'accès aux données...md` — Suite : permissions, rôles, OneLake data roles
 - `05. Administrer un environnement...md` — Admin portal, tenant settings, gouvernance
 
 ### `VI. Utilisez Activator dans Microsoft Fabric` (1h01 — Débutant)
-1 module.
+1 module + lab.
 - `Readme.md` — Objets, règles, actions email/Teams
+- `01. Utilisez Activator dans Microsoft Fabric.md` — Module complet : configuration, règles, actions
 - `11-data-activator.md` — Lab redondant
 - `lab.txt` — Notes
 
@@ -196,8 +204,9 @@ Contenu théorique en français extrait de Microsoft Learn, organisé par parcou
 | Métrique | Valeur |
 |----------|--------|
 | Labs uniques | 47 |
-| Modules théoriques | ~45 |
-| Captures d'écran | 344 |
+| Modules théoriques (français) | 38 (9+4+7+5+7+5+1) |
+| Fichiers de configuration & index | 4 (AGENTS.md, README.md, INDEX.md, _data/lab-metadata.yml) |
+| Captures d'écran | 344 (labs) + 8 (section 0 labs) |
 | Certifications couvertes | 7 (DP-700, DP-600, DP-601, DP-602, DP-603, DP-604, DP-3029) |
 | Temps d'étude estimé | ~31 heures |
 | Niveaux | Débutant à 300 (avancé) |
@@ -209,6 +218,6 @@ Contenu théorique en français extrait de Microsoft Learn, organisé par parcou
 
 - Les fichiers marqués "redondants" dans `mslearn-training/` sont des duplications des labs de `Instructions/Labs/` et peuvent être ignorés
 - Le lab numéro 10 est absent (saut volontaire dans la numérotation entre 09 et 11)
-- Le fichier `mslearn-training/0.../1...md` et `mslearn-training/V.../03...md` sont vides
 - Certains labs existent en deux exemplaires avec des noms légèrement différents (e.g., `15-design-semantic-model-scale.md` et `15-design-scalable-semantic-models.md`)
 - Les labs référencent des données externes via `MicrosoftLearning/dp-data` et `mslearn-fabric` sur GitHub
+- Les fichiers de modules marqués comme vides dans des versions antérieures ont depuis été enrichis avec le contenu complet des modules Microsoft Learn (français)
