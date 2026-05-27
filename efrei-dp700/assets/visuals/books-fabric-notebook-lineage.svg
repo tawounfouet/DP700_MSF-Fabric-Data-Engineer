@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1040" viewBox="0 0 1600 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Lineage Fabric couche notebooks Books to Scrape</title>
+  <desc id="desc">Vue de lineage Fabric attendue pour les notebooks Books to Scrape, depuis la source web vers les fichiers bronze, les tables silver, les tables gold, les controles qualite, le SQL endpoint, le modele semantique et le rapport Power BI.</desc>
+
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,8 L11,4 z" fill="#607086"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,8 L11,4 z" fill="#2563eb"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,8 L11,4 z" fill="#15803d"/>
+    </marker>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#172033" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1040" fill="#f7f9fc"/>
+
+  <text x="60" y="60" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#172033">Lineage Fabric - couche notebooks Books to Scrape</text>
+  <text x="60" y="94" font-family="Arial, sans-serif" font-size="18" fill="#526074">Vue finale attendue dans le workspace apres execution de la chaine nb_01 -> nb_04</text>
+
+  <rect x="48" y="125" width="1504" height="850" rx="18" fill="#ffffff" stroke="#d3dae6" stroke-width="2"/>
+  <rect x="48" y="125" width="1504" height="58" rx="18" fill="#f0f4f8" stroke="#d3dae6" stroke-width="2"/>
+  <text x="78" y="162" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#172033">Workspace Fabric</text>
+  <text x="265" y="162" font-family="Arial, sans-serif" font-size="16" fill="#526074">ws-efrei-dp700-books-dev-groupeXX</text>
+  <text x="1330" y="162" font-family="Arial, sans-serif" font-size="15" fill="#526074">Item principal : lh_books_toscrape</text>
+
+  <!-- Notebook layer -->
+  <text x="80" y="220" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#526074">Couches de traitement</text>
+
+  <rect x="80" y="240" width="240" height="126" rx="12" fill="#f8fafc" stroke="#b8c4d2" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="80" y="240" width="240" height="34" rx="12" fill="#e2e8f0"/>
+  <text x="104" y="263" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#24364a">Notebook</text>
+  <text x="104" y="305" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#172033">nb_00_setup</text>
+  <text x="104" y="333" font-family="Arial, sans-serif" font-size="14" fill="#526074">Parametres communs</text>
+  <text x="104" y="354" font-family="Arial, sans-serif" font-size="14" fill="#526074">URLs, chemins, date</text>
+
+  <rect x="380" y="220" width="250" height="166" rx="12" fill="#e8f3ff" stroke="#5a9ee6" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="380" y="220" width="250" height="34" rx="12" fill="#cfe7ff"/>
+  <text x="404" y="243" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#17324d">Notebook</text>
+  <text x="404" y="285" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#172033">nb_01_ingest</text>
+  <text x="404" y="311" font-family="Arial, sans-serif" font-size="14" fill="#17324d">Scraping HTML</text>
+  <text x="404" y="333" font-family="Arial, sans-serif" font-size="14" fill="#17324d">Parsing details livres</text>
+  <text x="404" y="355" font-family="Arial, sans-serif" font-size="14" fill="#17324d">Audit ingestion</text>
+
+  <rect x="690" y="220" width="250" height="166" rx="12" fill="#e8f3ff" stroke="#5a9ee6" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="690" y="220" width="250" height="34" rx="12" fill="#cfe7ff"/>
+  <text x="714" y="243" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#17324d">Notebook</text>
+  <text x="714" y="285" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#172033">nb_02_transform</text>
+  <text x="714" y="311" font-family="Arial, sans-serif" font-size="14" fill="#17324d">Nettoyage et typage</text>
+  <text x="714" y="333" font-family="Arial, sans-serif" font-size="14" fill="#17324d">Deduplication</text>
+  <text x="714" y="355" font-family="Arial, sans-serif" font-size="14" fill="#17324d">Rejets silver</text>
+
+  <rect x="1000" y="220" width="250" height="166" rx="12" fill="#e8f3ff" stroke="#5a9ee6" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="1000" y="220" width="250" height="34" rx="12" fill="#cfe7ff"/>
+  <text x="1024" y="243" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#17324d">Notebook</text>
+  <text x="1024" y="285" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#172033">nb_03_build_gold</text>
+  <text x="1024" y="311" font-family="Arial, sans-serif" font-size="14" fill="#17324d">Tables metier</text>
+  <text x="1024" y="333" font-family="Arial, sans-serif" font-size="14" fill="#17324d">Agregats categorie</text>
+  <text x="1024" y="355" font-family="Arial, sans-serif" font-size="14" fill="#17324d">Schema etoile</text>
+
+  <rect x="1310" y="220" width="210" height="166" rx="12" fill="#e8f3ff" stroke="#5a9ee6" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="1310" y="220" width="210" height="34" rx="12" fill="#cfe7ff"/>
+  <text x="1334" y="243" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#17324d">Notebook</text>
+  <text x="1334" y="285" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#172033">nb_04_quality</text>
+  <text x="1334" y="311" font-family="Arial, sans-serif" font-size="14" fill="#17324d">Controles silver</text>
+  <text x="1334" y="333" font-family="Arial, sans-serif" font-size="14" fill="#17324d">Controles gold</text>
+  <text x="1334" y="355" font-family="Arial, sans-serif" font-size="14" fill="#17324d">Trace dq_results</text>
+
+  <path d="M630 303 H680" stroke="#2563eb" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <path d="M940 303 H990" stroke="#2563eb" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <path d="M1250 303 H1300" stroke="#2563eb" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <text x="650" y="291" font-family="Arial, sans-serif" font-size="12" fill="#2563eb">pipeline</text>
+  <text x="960" y="291" font-family="Arial, sans-serif" font-size="12" fill="#2563eb">pipeline</text>
+  <text x="1264" y="291" font-family="Arial, sans-serif" font-size="12" fill="#2563eb">pipeline</text>
+
+  <path d="M320 303 H370" stroke="#607086" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrow)"/>
+  <path d="M200 366 V409 H815 V397" stroke="#607086" stroke-width="2.5" stroke-dasharray="8 7" marker-end="url(#arrow)"/>
+  <path d="M200 366 V427 H1125 V397" stroke="#607086" stroke-width="2.5" stroke-dasharray="8 7" marker-end="url(#arrow)"/>
+  <path d="M200 366 V445 H1415 V397" stroke="#607086" stroke-width="2.5" stroke-dasharray="8 7" marker-end="url(#arrow)"/>
+  <text x="222" y="398" font-family="Arial, sans-serif" font-size="12" fill="#607086">parametres partages</text>
+
+  <!-- Source -->
+  <rect x="80" y="475" width="240" height="138" rx="12" fill="#ffffff" stroke="#c7d0dc" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="80" y="475" width="240" height="34" rx="12" fill="#f1f5f9"/>
+  <text x="104" y="498" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#526074">Source externe</text>
+  <text x="104" y="540" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#172033">books.toscrape.com</text>
+  <text x="104" y="568" font-family="Arial, sans-serif" font-size="14" fill="#526074">Catalogue + pages detail</text>
+  <text x="104" y="590" font-family="Arial, sans-serif" font-size="14" fill="#526074">Site sandbox de scraping</text>
+  <path d="M320 544 C350 544 350 303 370 303" fill="none" stroke="#607086" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="340" y="508" font-family="Arial, sans-serif" font-size="12" fill="#607086">HTTP</text>
+
+  <!-- Lakehouse -->
+  <rect x="360" y="455" width="1160" height="365" rx="16" fill="#fbfdff" stroke="#c7d0dc" stroke-width="2"/>
+  <text x="390" y="492" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#172033">Lakehouse lh_books_toscrape</text>
+  <text x="655" y="492" font-family="Arial, sans-serif" font-size="15" fill="#526074">OneLake Files + Delta tables</text>
+
+  <rect x="390" y="525" width="250" height="245" rx="12" fill="#fff7e6" stroke="#c6811f" stroke-width="2"/>
+  <text x="415" y="561" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#5a3600">Bronze</text>
+  <text x="415" y="586" font-family="Arial, sans-serif" font-size="14" fill="#5a3600">Ecrit par nb_01</text>
+  <rect x="415" y="610" width="200" height="31" rx="7" fill="#ffffff" stroke="#e0ad5f"/>
+  <text x="430" y="631" font-family="Arial, sans-serif" font-size="13" fill="#5a3600">raw_html/*.html</text>
+  <rect x="415" y="650" width="200" height="31" rx="7" fill="#ffffff" stroke="#e0ad5f"/>
+  <text x="430" y="671" font-family="Arial, sans-serif" font-size="13" fill="#5a3600">raw_json/books.jsonl</text>
+  <rect x="415" y="690" width="200" height="31" rx="7" fill="#ffffff" stroke="#e0ad5f"/>
+  <text x="430" y="711" font-family="Arial, sans-serif" font-size="13" fill="#5a3600">logs/books_toscrape</text>
+  <rect x="415" y="730" width="200" height="31" rx="7" fill="#ffffff" stroke="#e0ad5f"/>
+  <text x="430" y="751" font-family="Arial, sans-serif" font-size="13" fill="#5a3600">audit_ingestion_runs</text>
+
+  <rect x="690" y="525" width="250" height="245" rx="12" fill="#eef3f8" stroke="#6c7f95" stroke-width="2"/>
+  <text x="715" y="561" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#24364a">Silver</text>
+  <text x="715" y="586" font-family="Arial, sans-serif" font-size="14" fill="#24364a">Ecrit par nb_02</text>
+  <rect x="715" y="610" width="200" height="31" rx="7" fill="#ffffff" stroke="#9baabe"/>
+  <text x="730" y="631" font-family="Arial, sans-serif" font-size="13" fill="#24364a">silver_books</text>
+  <rect x="715" y="650" width="200" height="31" rx="7" fill="#ffffff" stroke="#9baabe"/>
+  <text x="730" y="671" font-family="Arial, sans-serif" font-size="13" fill="#24364a">silver_categories</text>
+  <rect x="715" y="690" width="200" height="31" rx="7" fill="#ffffff" stroke="#9baabe"/>
+  <text x="730" y="711" font-family="Arial, sans-serif" font-size="13" fill="#24364a">silver_books_rejected</text>
+
+  <rect x="990" y="525" width="250" height="245" rx="12" fill="#fff5d6" stroke="#c4a000" stroke-width="2"/>
+  <text x="1015" y="561" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#5a4700">Gold</text>
+  <text x="1015" y="586" font-family="Arial, sans-serif" font-size="14" fill="#5a4700">Ecrit par nb_03</text>
+  <rect x="1015" y="610" width="200" height="31" rx="7" fill="#ffffff" stroke="#d5b83d"/>
+  <text x="1030" y="631" font-family="Arial, sans-serif" font-size="13" fill="#5a4700">gold_book_catalog</text>
+  <rect x="1015" y="650" width="200" height="31" rx="7" fill="#ffffff" stroke="#d5b83d"/>
+  <text x="1030" y="671" font-family="Arial, sans-serif" font-size="13" fill="#5a4700">gold_category_stats</text>
+  <rect x="1015" y="690" width="200" height="31" rx="7" fill="#ffffff" stroke="#d5b83d"/>
+  <text x="1030" y="711" font-family="Arial, sans-serif" font-size="13" fill="#5a4700">fact_books_gold</text>
+  <rect x="1015" y="730" width="95" height="31" rx="7" fill="#ffffff" stroke="#d5b83d"/>
+  <text x="1027" y="751" font-family="Arial, sans-serif" font-size="13" fill="#5a4700">dim_cat</text>
+  <rect x="1120" y="730" width="95" height="31" rx="7" fill="#ffffff" stroke="#d5b83d"/>
+  <text x="1132" y="751" font-family="Arial, sans-serif" font-size="13" fill="#5a4700">dim_rating</text>
+
+  <rect x="1290" y="525" width="200" height="245" rx="12" fill="#eaf7ef" stroke="#4ea66b" stroke-width="2"/>
+  <text x="1315" y="561" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#173d26">Qualite</text>
+  <text x="1315" y="586" font-family="Arial, sans-serif" font-size="14" fill="#173d26">Ecrit par nb_04</text>
+  <rect x="1315" y="610" width="150" height="31" rx="7" fill="#ffffff" stroke="#7cc896"/>
+  <text x="1330" y="631" font-family="Arial, sans-serif" font-size="13" fill="#173d26">dq_results</text>
+  <text x="1315" y="676" font-family="Arial, sans-serif" font-size="13" fill="#173d26">Lit :</text>
+  <text x="1315" y="699" font-family="Arial, sans-serif" font-size="13" fill="#173d26">silver_books</text>
+  <text x="1315" y="722" font-family="Arial, sans-serif" font-size="13" fill="#173d26">gold_book_catalog</text>
+  <text x="1315" y="745" font-family="Arial, sans-serif" font-size="13" fill="#173d26">gold_category_stats</text>
+
+  <path d="M505 386 V515" stroke="#607086" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M815 386 V515" stroke="#607086" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M1125 386 V515" stroke="#607086" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M1415 386 V515" stroke="#607086" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="518" y="432" font-family="Arial, sans-serif" font-size="12" fill="#607086">write</text>
+  <text x="828" y="432" font-family="Arial, sans-serif" font-size="12" fill="#607086">write</text>
+  <text x="1138" y="432" font-family="Arial, sans-serif" font-size="12" fill="#607086">write</text>
+  <text x="1428" y="432" font-family="Arial, sans-serif" font-size="12" fill="#607086">append</text>
+
+  <path d="M640 648 H680" stroke="#607086" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M940 648 H980" stroke="#607086" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M1240 648 H1280" stroke="#607086" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="647" y="635" font-family="Arial, sans-serif" font-size="12" fill="#607086">read</text>
+  <text x="947" y="635" font-family="Arial, sans-serif" font-size="12" fill="#607086">read</text>
+  <text x="1247" y="635" font-family="Arial, sans-serif" font-size="12" fill="#607086">read</text>
+
+  <!-- Exposure layer -->
+  <text x="80" y="865" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#526074">Exposition et consommation</text>
+
+  <rect x="480" y="885" width="250" height="64" rx="12" fill="#ffffff" stroke="#c7d0dc" stroke-width="2"/>
+  <text x="505" y="912" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#172033">SQL analytics endpoint</text>
+  <text x="505" y="934" font-family="Arial, sans-serif" font-size="13" fill="#526074">queries_books_gold.sql</text>
+
+  <rect x="800" y="885" width="250" height="64" rx="12" fill="#ffffff" stroke="#c7d0dc" stroke-width="2"/>
+  <text x="825" y="912" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#172033">Semantic model</text>
+  <text x="825" y="934" font-family="Arial, sans-serif" font-size="13" fill="#526074">sm_books_analytics</text>
+
+  <rect x="1120" y="885" width="250" height="64" rx="12" fill="#ffffff" stroke="#c7d0dc" stroke-width="2"/>
+  <text x="1145" y="912" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#172033">Power BI report</text>
+  <text x="1145" y="934" font-family="Arial, sans-serif" font-size="13" fill="#526074">rpt_books_catalog_analysis</text>
+
+  <path d="M1115 770 V855 H605 V875" fill="none" stroke="#15803d" stroke-width="3" marker-end="url(#arrowGreen)"/>
+  <path d="M730 917 H790" stroke="#15803d" stroke-width="3" marker-end="url(#arrowGreen)"/>
+  <path d="M1050 917 H1110" stroke="#15803d" stroke-width="3" marker-end="url(#arrowGreen)"/>
+  <path d="M1390 770 V855 H1245 V875" fill="none" stroke="#15803d" stroke-width="2.5" stroke-dasharray="8 7" marker-end="url(#arrowGreen)"/>
+  <text x="770" y="896" font-family="Arial, sans-serif" font-size="12" fill="#15803d">Direct Lake / SQL</text>
+  <text x="1278" y="846" font-family="Arial, sans-serif" font-size="12" fill="#15803d">page qualite</text>
+</svg>

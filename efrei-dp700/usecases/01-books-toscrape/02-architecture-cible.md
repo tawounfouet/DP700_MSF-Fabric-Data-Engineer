@@ -64,6 +64,10 @@ nb_01_ingest_books_bronze
   -> nb_04_data_quality_checks
 ```
 
+Lineage Fabric attendu pour la couche notebooks :
+
+![Lineage Fabric notebooks Books](../../assets/visuals/books-fabric-notebook-lineage.svg)
+
 ## Exposition
 
 - SQL analytics endpoint pour exploration T-SQL.

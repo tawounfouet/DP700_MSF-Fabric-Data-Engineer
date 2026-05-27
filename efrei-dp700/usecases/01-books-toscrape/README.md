@@ -16,6 +16,10 @@ Le dataset vient de [Books to Scrape](https://books.toscrape.com/), un site sand
 
 ![Architecture medaillon Books](../../assets/visuals/books-medallion-architecture.svg)
 
+Vue lineage Fabric de la couche notebooks :
+
+![Lineage Fabric notebooks Books](../../assets/visuals/books-fabric-notebook-lineage.svg)
+
 Items Fabric :
 
 | Item | Nom recommande | Role |
