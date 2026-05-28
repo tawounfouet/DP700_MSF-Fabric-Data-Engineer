@@ -1,0 +1,9 @@
+# ── Contenu réservé au facilitateur (non partagé aux étudiants) ─────────────
+efrei-dp700/00-facilitateur/
+mslearn-training/
+AGENTS.md
+
+# ── Système ──────────────────────────────────────────────────────────────────
+.DS_Store
+__pycache__/
+*.pyc

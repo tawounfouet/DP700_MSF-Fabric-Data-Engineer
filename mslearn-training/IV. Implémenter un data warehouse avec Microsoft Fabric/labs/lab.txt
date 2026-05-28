@@ -1,2 +1,0 @@
-https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/11-data-activator.html
-https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/22c-copilot-fabric-data-warehouse.html
