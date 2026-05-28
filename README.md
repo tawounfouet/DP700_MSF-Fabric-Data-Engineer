@@ -88,7 +88,7 @@ Dépôt d'étude complet pour la certification **Microsoft Certified: Fabric Dat
 
 ## Comment utiliser ce dépôt
 
-1. **Étude théorique** — Parcourez `mslearn-training/` pour les modules Microsoft Learn en français (XP, durées, objectifs)
+1. **Étude théorique** — les modules Microsoft Learn en français (XP, durées, objectifs)
 2. **Pratique** — Suivez les labs dans `Instructions/Labs/` (anglais, avec captures d'écran)
 3. **Révision** — Consultez `resources/` pour le guide d'étude DP-700
 4. **Préparation à l'examen** — Concentrez-vous sur les 3 domaines de l'examen via le mapping `_data/lab-metadata.yml`
